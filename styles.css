@@ -1,0 +1,112 @@
+/* Basic Styling - Modify to Your Taste */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0; /* Soft Neutral Background */
+  color: #333;  /* Dark Gray Text */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; /* Soft Neutral Background */
+}
+
+header h1 {
+  font-family: 'Roboto', sans-serif; /* Bold Heading Font */
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #228B22;  /* Green color for the title */
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px auto; /* Center Image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle Shadow */
+}
+
+/* Bio Styling */
+.bio {
+  margin-bottom: 20px;
+}
+
+.bio h2 {
+  font-family: 'Open Sans', sans-serif; /* Bold Heading Font */
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #228B22; /* Green color for title */
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6; /* Adjust spacing between lines */
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Attachments Styling */
+.attachments {
+  margin-bottom: 20px;
+}
+
+.attachments h2 {
+  font-family: 'Open Sans', sans-serif; /* Bold Heading Font */
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #228B22; /* Green color for title */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #007bff; /* Blue Link Color */
+  transition: 0.3s; /* Smooth Transition */
+}
+
+ul li a:hover {
+  color: #0056b3; /* Darker Blue on Hover */
+  transform: scale(1.05); /* Slight Zoom Effect */
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #f0f0f0; /* Soft Neutral Background */
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+footer p {
+  color: #666; /* Light Gray Color */
+  font-size: 0.9em;
+}
