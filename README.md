@@ -1,5 +1,3 @@
-Tentu! Berikut adalah versi markdown yang rapi dan terstruktur dengan baik untuk file `README.md` repositori Anda. Saya telah menyesuaikan format, struktur, dan penjelasan yang lebih jelas agar mudah dipahami oleh pengunjung dan kontributor.
-
 ```markdown
 # Biodata Website - M. Gilang Martiansyah M
 
@@ -24,24 +22,10 @@ Website ini memiliki beberapa fitur menarik seperti:
 - **HTML5**: Struktur halaman website.
 - **CSS3**: Styling dan layout halaman, menggunakan **Flexbox** dan **CSS Grid** untuk tata letak responsif.
 - **JavaScript**: Menambahkan fungsionalitas interaktif dan animasi.
-- **Bootstrap 5**: Framework CSS untuk desain responsif dan elemen UI.
+- **Bootstrap 5**: Framework CSS untuk desain responsif dan komponen UI.
 - **Font Awesome**: Ikon untuk elemen-elemen website.
 - **WOW.js & Animate.css**: Library untuk animasi elemen saat scroll.
 - **Pexels/Unsplash**: Gambar bebas lisensi yang digunakan untuk latar belakang.
-
-## Struktur Repositori
-```
-/biodata-website
-│
-├── index.html                # Halaman utama website
-├── assets/
-│   ├── images/               # Folder gambar (profil & latar belakang)
-│   ├── CV_Gilang.pdf         # CV dalam format PDF (unduhan)
-│   └── LaporanTugas.pdf      # Laporan tugas (unduhan)
-├── styles.css                # File CSS untuk styling dan layout
-├── script.js                 # File JavaScript untuk animasi dan interaktivitas
-└── README.md                 # File ini (penjelasan proyek)
-```
 
 ## Instalasi
 
@@ -136,16 +120,4 @@ Proyek ini menggunakan **Lisensi MIT**. Lihat file [LICENSE](LICENSE) untuk info
 ## Penutupan
 
 Terima kasih telah mengunjungi repositori ini! Jika Anda memiliki pertanyaan atau saran untuk pengembangan lebih lanjut, jangan ragu untuk membuka **issue** atau membuat **pull request**.
-
 ```
-
-### Penjelasan:
-1. **Deskripsi Proyek**: Menjelaskan tujuan dan fungsionalitas website.
-2. **Fitur Utama**: Menyajikan fitur-fitur utama yang ada di website.
-3. **Teknologi yang Digunakan**: Menyebutkan teknologi yang digunakan untuk membangun website.
-4. **Instalasi & Penggunaan**: Instruksi untuk menginstal dan menjalankan website di mesin lokal.
-5. **Kontribusi**: Menjelaskan cara orang lain dapat berkontribusi pada proyek ini.
-6. **Referensi & Roadmap**: Menyediakan referensi yang digunakan dalam proyek dan roadmap pengembangan.
-7. **Lisensi**: Menyebutkan jenis lisensi yang digunakan (MIT).
-   
-README ini disusun agar jelas dan mudah dipahami baik untuk pengguna biasa, pengembang, atau kontributor yang ingin membantu mengembangkan proyek.
