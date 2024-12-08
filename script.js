@@ -1,11 +1,9 @@
-// Example: Fade-in Animation for Bio Section
-const bioSection = document.querySelector('.bio');
+document.addEventListener('DOMContentLoaded', () => {
+  const bio = document.querySelector('#bio');
+  bio.style.opacity = 0;
+  bio.style.transition = 'opacity 1s ease-in-out';
 
-bioSection.style.opacity = '0'; // Initially hidden
-bioSection.style.transition = 'opacity 0.5s ease-in-out'; // Smooth transition
-
-window.addEventListener('load', () => {
-  bioSection.style.opacity = '1'; // Fade in
+  setTimeout(() => {
+    bio.style.opacity = 1;
+  }, 500);
 });
-
-// Add similar animations for other sections as needed.
